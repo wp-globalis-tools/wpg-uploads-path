@@ -1,0 +1,26 @@
+{
+    "name":"globalis/wpg-uploads-path",
+    "type":"wordpress-muplugin",
+    "license":"GPL-2.0",
+    "description":"Change WordPress uploads directory",
+    "homepage":"https://github.com/wp-globalis-tools/wpg-uploads-path",
+    "authors":[
+        {
+            "name":"Pierre Dargham",
+            "homepage":"https://github.com/pierre-dargham/"
+        },
+        {
+            "name":"GLOBALIS media systems",
+            "homepage":"https://www.globalis-ms.com/"
+        }
+   ],
+   "keywords":[
+        "wordpress"
+   ],
+   "support":{
+        "issues":"https://github.com/wp-globalis-tools/wpg-uploads-path/issues"
+   },
+   "require":{
+        "php":">=5.5"
+   }
+}
