@@ -2,7 +2,7 @@
     "name":"globalis/wpg-uploads-path",
     "type":"wordpress-muplugin",
     "license":"GPL-2.0",
-    "description":"Change WordPress uploads directory and fix media filenames",
+    "description":"Change WordPress uploads directory",
     "homepage":"https://github.com/wp-globalis-tools/wpg-uploads-path",
     "authors":[
         {
