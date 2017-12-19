@@ -14,7 +14,13 @@
 
 namespace Globalis\WP\UploadsPath;
 
-if(defined('WP_UPLOADS_DIR') && defined('WP_UPLOADS_URL')) {
-	add_filter('pre_option_upload_path', function() { return WP_UPLOADS_DIR; });
-	add_filter('pre_option_upload_url_path', function() { return WP_UPLOADS_URL; });
+if (defined('WP_UPLOADS_DIR') && defined('WP_UPLOADS_URL')) {
+    add_filter('pre_option_upload_path', function () {
+        return WP_UPLOADS_DIR;
+
+    });
+    add_filter('pre_option_upload_url_path', function () {
+        return WP_UPLOADS_URL;
+
+    });
 }
